@@ -1,9 +1,9 @@
 # 🚀 Go Learning Journey: From QA to Backend Developer
 
-> **Objetivo:** Transición de QA Automation Engineer a Go Backend Developer en 8 semanas
+> **Objetivo:** Transición de QA Automation Engineer a Go Backend Developer.
 
 ## 👨‍💻 Background
-- **Experiencia actual:** 5+ años en QA Automation
+- **Experiencia actual:** 2+ años en QA Automation
 - **Stack actual:** Robot Framework, Python, Node.js
 - **Objetivo:** Backend Development con Go + herramientas IA
 
