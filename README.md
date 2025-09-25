@@ -11,8 +11,8 @@
 
 ### Semana 1: Go Fundamentals (5 días)
 - [x] **Día 1:** Variables, tipos, operadores ✅
-- [x] **Día 2:** Condicionales y loops ✅
-- [x] **Día 3:** Funciones, arrays y slices ✅
+- [x] **Día 2:** Condicionales y loops
+- [x] **Día 3:** Funciones, arrays y slices  
 - [ ] **Día 4:** Maps, structs y métodos
 - [ ] **Día 5:** Interfaces y manejo de errores
 
@@ -78,34 +78,40 @@
 **Reflexiones:**
 > "Los switches sin break son geniales. Los for loops son más versátiles que esperaba - un solo keyword para todo tipo de iteración."
 
-### Día 3 ✅ (23/09/2025)
+### Día 3 ✅ (23/09/2025) - NIVEL AVANZADO ALCANZADO
 **Conceptos aprendidos:**
 - 🏆 **EXAMEN APROBADO:** Sistemas complejos con lógica empresarial
-- Funciones: simple, con return, multiple returns
+- **Funciones básicas:** simple, con return, multiple returns
+- **Funciones avanzadas:** Named returns, naked returns, variadic functions
+- **Conceptos senior:** Anonymous functions, closures, function factories
+- **Resource management:** Defer statements para cleanup garantizado
 - Error handling idiomático Go (`error` interface, `nil`)
 - Arrays vs Slices: `[5]int` vs `[]int`
 - Slice operations: `append()`, `len()`, `range`
-- Built-in functions y type conversions
 
 **Código creado:**
 - `day3-exam/`: Sistema evaluación estudiantil completo
 - `day3-challenge2/`: FizzBuzz empresarial con 7 combinaciones
 - `day3-functions/`: Funciones, arrays, slices y error handling
+- `day3-advanced-functions/`: Closures, defer, variadic functions
 
 **Hitos alcanzados:**
 - 🎯 **Descubrimiento propio:** Usó slices y `range` por iniciativa
-- 🎯 **Investigación activa:** Buscó documentación de Go
-- 🎯 **Error handling:** Implementó `fmt.Errorf()` y `nil` correctamente
-- 🎯 **Lógica compleja:** FizzBuzz con múltiples condiciones anidadas
+- 🎯 **Investigación activa:** Consultó roadmap.sh y documentación Go
+- 🎯 **Conceptos avanzados:** Closures y defer comprendidos profundamente
+- 🎯 **Pensamiento arquitectural:** Resource management y exception safety
+- 🎯 **Function factories:** Creación de funciones dinámicas
 
 **Ejercicios completados:**
 - ✅ Sistema de calificaciones con asistencia
-- ✅ FizzBuzz empresarial (3,5,7 + combinaciones)
-- ✅ Funciones con múltiples returns
-- ✅ Array vs Slice manipulation
+- ✅ FizzBuzz empresarial (3,5,7 + combinaciones)  
+- ✅ Named returns y naked returns
+- ✅ Variadic functions (suma variable de argumentos)
+- ✅ Closures y anonymous functions
+- ✅ Defer statements con resource cleanup
 
 **Reflexiones:**
-> "Go tiene una filosofía diferente - los errores son valores, no excepciones. El `append()` que retorna nuevo slice me recuerda a conceptos funcionales. La sintaxis es más limpia de lo esperado."
+> "Go tiene conceptos únicos como defer que garantizan cleanup - eso es arquitectura pensada para producción. Los closures 'recuerdan' valores como function factories. La filosofía de errores como valores, no excepciones, tiene mucho sentido ahora."
 
 ### Día 4 🎯 (24/09/2025)
 **Plan de hoy:**
@@ -114,18 +120,19 @@
 - Práctica con estructuras de datos complejas
 
 ## 🎯 Próximos Hitos
-- [ ] Primer commit en GitHub
+- [x] Primer commit en GitHub
 - [ ] Completar fundamentals (Día 1-5)
 - [ ] Primer proyecto funcional
 - [ ] Portfolio en GitHub con proyectos
 
 ## 📊 Métricas de Aprendizaje
-- **Días estudiados:** 3/35 🔥🔥🔥
-- **Proyectos completados:** 0/3 (fundamentos sólidos completados)
-- **Conceptos dominados:** Variables, operadores, control flow, funciones, slices, error handling
-- **Ejercicios completados:** 8/8 ✅
-- **Desafíos superados:** 2/2 🏆 (Sistema estudiantil + FizzBuzz empresarial)
-- **Commits realizados:** 5 (documentación profesional)
-- **Líneas de código:** ~200+ (funcional y testeado)
-- **Nivel actual:** 🚀 Listo para estructuras de datos complejas
-- **Motivación level:** 🔥🔥🔥 ¡IMPARABLE!
+- **Días estudiados:** 3/35 🔥🔥🔥 (NIVEL AVANZADO)
+- **Proyectos completados:** 0/3 (fundamentos senior-level completados)
+- **Conceptos dominados:** Variables, control flow, funciones avanzadas, closures, defer
+- **Ejercicios completados:** 12/12 ✅ (incluyendo conceptos avanzados)
+- **Desafíos superados:** 2/2 🏆 + conceptos de roadmap.sh
+- **Commits realizados:** 7 (documentación profesional detallada)
+- **Líneas de código:** ~350+ (funcional, testeado, enterprise-level)
+- **Nivel actual:** 🚀 Ready para Methods, Structs y OOP patterns
+- **Roadmap progress:** Funciones completadas al 100%
+- **Motivación level:** 🔥🔥🔥🔥 ¡NIVEL SENIOR DEVELOPER!
