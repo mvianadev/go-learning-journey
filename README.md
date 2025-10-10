@@ -13,7 +13,7 @@
 - [x] **Día 1:** Variables, tipos, operadores ✅
 - [x] **Día 2:** Condicionales y loops
 - [x] **Día 3:** Funciones, arrays y slices  
-- [ ] **Día 4:** Maps, structs y métodos
+- [x] **Día 4:** Maps, structs y métodos
 - [ ] **Día 5:** Interfaces y manejo de errores
 
 ### Semana 2: Primer Proyecto
@@ -113,35 +113,39 @@
 **Reflexiones:**
 > "Go tiene conceptos únicos como defer que garantizan cleanup - eso es arquitectura pensada para producción. Los closures 'recuerdan' valores como function factories. La filosofía de errores como valores, no excepciones, tiene mucho sentido ahora."
 
-### Día 4 ✅ (24/09/2025) - CONSOLIDACIÓN DE FUNDAMENTOS
-**Conceptos reforzados:**
-- Structs con business logic compleja (sistema bancario)
-- Pointer receivers para state mutation (Transfer, Deposit, Withdraw)
-- Error handling en sistemas reales con múltiples validaciones
-- Variadic functions en procesamiento de datos
-- Closures para crear filtros dinámicos
-- Defer statements en flujos de trabajo
-- Named returns con múltiples valores
-- Slice operations avanzadas
+### Día 4 ✅ (24/09/2025) - MAPS Y SISTEMAS COMPLEJOS
+**Conceptos aprendidos:**
+- **Maps fundamentals:** Declaración, operaciones CRUD, iteración
+- **Existence checking:** Pattern `value, ok := map[key]`
+- **Maps con Structs:** Estructuras de datos complejas
+- **Constructor pattern:** `NewInventory()` para inicialización
+- **Business logic:** Sistema de inventario con reposición automática
+- Structs con pointer receivers para state mutation
+- Error handling en sistemas transaccionales
+- DRY principle aplicado
 
 **Código creado:**
 - `day4-exam/bank.go`: Sistema bancario completo con transferencias
 - `day4-text-processor/`: Procesador de texto con closures
 - `day4-validator/`: Sistema de validación de usuarios robusto
+- `day4-maps/`: Maps básicos y operaciones avanzadas
+- `day4-inventory-system/`: Sistema completo de gestión de inventario
 
 **Proyectos completados:**
 - ✅ **Banking System:** Transfer entre cuentas, validaciones, error handling
 - ✅ **Text Processor:** Closures, variadic functions, defer logging
-- ✅ **User Validator:** Named returns, múltiples validaciones, casos edge
+- ✅ **User Validator:** Named returns, múltiples validaciones
+- ✅ **Inventory Management:** CRUD completo con maps + structs + business logic
 
 **Habilidades demostradas:**
 - 🎯 Sistemas transaccionales (withdraw → deposit atómico)
-- 🎯 Validaciones de negocio con mensajes descriptivos
-- 🎯 Function factories para crear filtros dinámicos
-- 🎯 Manejo robusto de edge cases
+- 🎯 Constructor patterns y factory functions
+- 🎯 Maps como base de datos en memoria
+- 🎯 Business workflows completos (detect → report → fix → verify)
+- 🎯 Professional UX con output formateado
 
 **Reflexiones:**
-> "La práctica refuerza conceptos. Transfer fue el desafío más interesante - combinar withdraw y deposit con error handling. Los closures para filtros son muy potentes. Ya entiendo cuándo usar pointer vs value receivers."
+> "Maps son increíblemente versátiles - como bases de datos en memoria. El constructor pattern hace el código más robusto. Combinar maps + structs permite crear sistemas complejos reales. Ya puedo visualizar cómo esto se usa en APIs y microservicios."
 
 ## 🎯 Próximos Hitos
 - [ ] Primer commit en GitHub
@@ -151,12 +155,12 @@
 
 ## 📊 Métricas de Aprendizaje
 - **Días estudiados:** 4/35 🔥🔥🔥🔥
-- **Proyectos completados:** 3 mini-proyectos (Banking, Processor, Validator)
-- **Conceptos dominados:** Variables, control flow, funciones avanzadas, structs, methods, error handling
-- **Ejercicios completados:** 15/15 ✅ (100% success rate)
+- **Proyectos completados:** 4 sistemas completos (Banking, Text Processor, Validator, Inventory)
+- **Conceptos dominados:** Variables, control flow, funciones avanzadas, structs, methods, maps, error handling
+- **Ejercicios completados:** 18/18 ✅ (100% success rate)
 - **Desafíos superados:** 5/5 🏆 (incluye sistemas empresariales)
-- **Commits realizados:** 9 (documentación profesional consistente)
-- **Líneas de código:** ~550+ (funcional, testeado, production-ready)
-- **Nivel actual:** 🚀 Ready para Maps y proyectos integradores
-- **Roadmap progress:** Fundamentos completados, entrando a estructuras de datos
-- **Consistencia:** 4 días consecutivos de estudio
+- **Commits realizados:** 11+ (documentación profesional consistente)
+- **Líneas de código:** ~700+ (funcional, testeado, production-ready)
+- **Nivel actual:** 🚀 Ready para Interfaces y proyectos API reales
+- **Roadmap progress:** Fundamentos + estructuras de datos completados
+- **Consistencia:** 4 días consecutivos de estudio intensivo
